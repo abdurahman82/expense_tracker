@@ -1,0 +1,31 @@
+name: expense_tracker
+description: A simple, complete Flutter mobile application for expense tracking using SQLite.
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Local database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Utilities
+  provider: ^6.0.5
+  intl: ^0.18.1 # For date formatting
+  
+  # Optional Enhancement: Charts
+  fl_chart: ^0.63.0 # For pie chart/bar chart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
