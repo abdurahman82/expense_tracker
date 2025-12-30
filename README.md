@@ -22,4 +22,9 @@ expense_detail_screen
 expenses_list_screen
 home_screen
 
+لعرض التطبيق لديك ضع ملف lib بدل في مشروع flutter 
+ضع ملف pubspec.yaml في مكانه في نفس المشروع
+قم بتنفيذ امر pub get من terminal 
+قم ب run للتطيق 
+
 
